@@ -1,0 +1,378 @@
+.ChristmasTree{
+	width: 30em;
+	height: 25em;
+	// background-image: url('../images/bg-tree.png');
+	opacity: 50%;
+	background-size: cover;
+}
+
+.treeHeader{
+	position: relative;
+	img{
+	height: 4em;
+	margin-left: 13em;
+	position: relative;
+	top: 40px;
+	}
+}
+
+	#GreenCircles{
+		.greenCircle-1{
+			@include circles($c_green, 35px, 35px, $opacity1);
+    		margin: 75px 0px 0px 217px;
+		}
+		.greenCircle-2{
+			@include circles($c_green, 28px, 28px, $opacity1);
+    		margin: -10px 0px 0px 240px;
+		}
+		.greenCircle-3{
+			@include circles($c_green, 40px, 40px, $opacity1);
+    		margin: 5px 0px 0px 195px;
+		}
+		.greenCircle-4{
+			@include circles($c_green, 28px, 28px, $opacity1);
+    		margin: -30px 0px 0px 240px;
+    		// z-index:1;
+		}
+		.greenCircle-5{
+			@include circles($c_green, 35px, 35px, $opacity1);
+    		margin: -30px 0px 0px 250px;
+		}
+		.greenCircle-6{
+			@include circles($c_green, 12px, 12px, $opacity1);
+    		margin: 20px 0px 0px 165px;
+		}
+		.greenCircle-7{
+			@include circles($c_green, 25px, 25px, $opacity1);
+    		margin: -25px 0px 0px 180px;
+		}
+		.greenCircle-8{
+			@include circles($c_green, 40px, 40px, $opacity1);
+    		margin: -40px 0px 0px 215px;
+    		z-index:1;
+		}
+		.greenCircle-9{
+			@include circles($c_green, 18px, 18px, $opacity1);
+    		margin: -38px 0px 0px 275px;
+    		// z-index:1;
+		}
+		.greenCircle-10{
+			@include circles($c_green, 25px, 25px, $opacity1);
+    		margin: 42px 0px 0px 147px;
+		}
+		.greenCircle-11{
+			@include circles($c_green, 40px, 40px, $opacity1);
+    		margin: -30px 0px 0px 160px;
+		}
+		.greenCircle-12{
+			@include circles($c_green, 40px, 40px, $opacity1);
+    		margin: -45px 0px 0px 185px;
+		}
+		.greenCircle-13{
+			@include circles($c_green, 65px, 65px, $opacity1);
+    		margin: -50px 0px 0px 230px;
+		}
+		.greenCircle-14{
+			@include circles($c_green, 35px, 35px, $opacity1);
+    		margin: -75px 0px 0px 295px;
+    		z-index:1;
+		}
+		.greenCircle-15{
+			@include circles($c_green, 40px, 40px, $opacity1);
+    		margin: 0px 0px 0px 300px;
+		}
+		.greenCircle-16{
+			@include circles($c_green, 50px, 50px, $opacity1);
+    		margin: -15px 0px 0px 120px;
+		}
+		.greenCircle-17{
+			@include circles($c_green, 15px, 15px, $opacity1);
+    		margin: -50px 0px 0px 155px;
+		}
+		.greenCircle-18{
+			@include circles($c_green, 35px, 35px, $opacity1);
+    		margin: -15px 0px 0px 200px;
+		}
+		.greenCircle-19{
+			@include circles($c_green, 40px, 40px, $opacity1);
+    		margin: -20px 0px 0px 215px;
+		}
+		.greenCircle-20{
+			@include circles($c_green, 65px, 65px, $opacity1);
+    		margin: -40px 0px 0px 235px;
+		}
+		.greenCircle-21{
+			@include circles($c_green, 45px, 45px, $opacity1);
+    		margin: -40px 0px 0px 270px;
+    		z-index:1;
+		}
+		.greenCircle-22{
+			@include circles($c_green, 20px, 20px, $opacity1);
+    		margin: -70px 0px 0px 340px;
+		}
+		.greenCircle-23{
+			@include circles($c_green, 25px, 25px, $opacity1);
+    		margin: 10px 0px 0px 350px;
+		}
+		.greenCircle-24{
+			@include circles($c_green, 25px, 25px, $opacity1);
+    		margin: -25px 0px 0px 100px;
+		}
+		.greenCircle-25{
+			@include circles($c_green, 50px, 50px, $opacity1);
+    		margin: 10px 0px 0px 85px;
+		}
+		.greenCircle-26{
+			@include circles($c_green, 50px, 50px, $opacity1);
+    		margin: -65px 0px 0px 115px;
+		}
+		.greenCircle-27{
+			@include circles($c_green, 45px, 45px, $opacity1);
+    		margin: -60px 0px 0px 180px;
+		}
+		.greenCircle-28{
+			@include circles($c_green, 35px, 35px, $opacity1);
+    		margin: -15px 0px 0px 210px;
+		}
+		.greenCircle-29{
+			@include circles($c_green, 40px, 40px, $opacity1);
+    		margin: -35px 0px 0px 265px;
+    		z-index: 1;
+		}
+		.greenCircle-30{
+			@include circles($c_green, 40px, 40px, $opacity1);
+    		margin: -55px 0px 0px 335px;
+		}
+		.greenCircle-31{
+			@include circles($c_green, 45px, 45px, $opacity1);
+    		margin: -30px 0px 0px 360px;
+		}
+
+	}
+
+
+
+	#RedCircles{
+		.redCircle-1{
+			@include circles( $c_red, 25px, 25px, $opacity1);
+    		margin: -330px 0px 0px 230px;
+		}
+		.redCircle-2{
+			@include circles($c_red, 25px, 25px, $opacity1);
+    		margin: 5px 0px 0px 240px;
+		}
+		.redCircle-3{
+			@include circles($c_red, 25px, 25px, $opacity1);
+    		margin: -2px 0px 0px 210px;
+		}
+		.redCircle-4{
+			@include circles($c_red, 20px, 20px, $opacity1);
+    		margin: -10px 0px 0px 233px;
+		}
+		.redCircle-5{
+			@include circles($c_red, 15px, 15px, $opacity1);
+    		margin: -20px 0px 0px 260px;
+		}
+		.redCircle-6{
+			@include circles($c_red, 40px, 40px, $opacity1);
+    		margin: 20px 0px 0px 175px;
+		}
+		.redCircle-7{
+			@include circles($c_red, 30px, 30px, $opacity1);
+    		margin: -20px 0px 0px 240px;
+		}
+		.redCircle-8{
+			@include circles($c_red, 20px, 20px, $opacity1);
+    		margin: -35px 0px 0px 290px;
+		}
+		.redCircle-9{
+			@include circles($c_red, 40px, 40px, $opacity1);
+    		margin: 10px 0px 0px 155px;
+		}
+		.redCircle-10{
+			@include circles($c_red, 35px, 35px, $opacity1);
+    		margin: -50px 0px 0px 205px;
+    		z-index:1;
+		}
+		.redCircle-11{
+			@include circles($c_red, 45px, 45px, $opacity1);
+    		margin: -35px 0px 0px 265px;
+		}
+		.redCircle-12{
+			@include circles($c_red, 15px, 15px, $opacity1);
+    		margin: 15px 0px 0px 195px;
+		}
+		.redCircle-13{
+			@include circles($c_red, 15px, 15px, $opacity1);
+    		margin: -5px 0px 0px 250px;
+		}
+		.redCircle-14{
+			@include circles($c_red, 25px, 25px, $opacity1);
+    		margin: -30px 0px 0px 270px;
+		}
+		.redCircle-15{
+			@include circles($c_red, 20px, 20px, $opacity1);
+    		margin: -40px 0px 0px 300px;
+		}
+		.redCircle-16{
+			@include circles($c_red, 50px, 50px, $opacity1);
+    		margin: 20px 0px 0px 155px;
+		}
+		.redCircle-17{
+			@include circles($c_red, 40px, 40px, $opacity1);
+    		margin: -15px 0px 0px 230px;
+		}
+		.redCircle-18{
+			@include circles($c_red, 20px, 20px, $opacity1);
+    		margin: -75px 0px 0px 285px;
+		}
+		.redCircle-19{
+			@include circles($c_red, 15px, 15px, $opacity1);
+    		margin: -10px 0px 0px 320px;
+		}
+		.redCircle-20{
+			@include circles($c_red, 35px, 35px, $opacity1);
+    		margin: -40px 0px 0px 320px;
+		}
+		.redCircle-21{
+			@include circles($c_red, 30px, 30px, $opacity1);
+    		margin: 5px 0px 0px 330px;
+		}
+		.redCircle-22{
+			@include circles($c_red, 20px, 20px, $opacity1);
+    		margin: 5px 0px 0px 90px;
+		}
+		.redCircle-23{
+			@include circles($c_red, 25px, 25px, $opacity1);
+    		margin: -35px 0px 0px 120px;
+		}
+		.redCircle-24{
+			@include circles($c_red, 15px, 15px, $opacity1);
+    		margin: -15px 0px 0px 152px;
+		}
+		.redCircle-25{
+			@include circles($c_red, 40px, 40px, $opacity1);
+    		margin: 0px 0px 0px 165px;
+		}
+		.redCircle-26{
+			@include circles($c_red, 20px, 20px, $opacity1);
+    		margin: -10px 0px 0px 240px;
+		}
+		.redCircle-27{
+			@include circles($c_red, 10px, 10px, $opacity1);
+    		margin: -50px 0px 0px 260px;
+		}
+		.redCircle-28{
+			@include circles($c_red, 25px, 25px, $opacity1);
+    		margin: -50px 0px 0px 300px;
+		}
+		.redCircle-29{
+			@include circles($c_red, 40px, 40px, $opacity1);
+    		margin: 15px 0px 0px 290px;
+		}
+		.redCircle-30{
+			@include circles($c_red, 20px, 20px, $opacity1);
+    		margin: -55px 0px 0px 325px;
+		}
+	}
+
+
+#stars img{
+	width: 32px;
+	height: 30px;
+}
+
+#stars{
+	.star1{
+	@include stars();
+	margin: -280px 0px 0px 230px;
+	}
+	.star2{
+	@include stars();
+	margin: 40px 0px 0px 200px;
+	}
+	.star3{
+	@include stars();
+	margin: 0px 0px 0px 260px;
+	}
+	.star4{
+	@include stars();
+	margin: -5px 0px 0px 180px;
+	}
+	.star5{
+	@include stars();
+	margin: -15px 0px 0px 240px;
+	}
+	.star6{
+	@include stars();
+	margin: -60px 0px 0px 315px;
+	z-index: 10;
+	}
+	.star7{
+	@include stars();
+	margin: 25px 0px 0px 295px;
+	}
+	.star8{
+	@include stars();
+	margin: -10px 0px 0px 210px;
+	}
+	.star9{
+	@include stars();
+	margin: -70px 0px 0px 150px;
+	}
+	.star10{
+	@include stars();
+	margin: 10px 0px 0px 100px;
+	}
+	.star11{
+	@include stars();
+	margin: 10px 0px 0px 150px;
+	}
+	.star12{
+	@include stars();
+	margin: -50px 0px 0px 240px;
+	}
+	.star13{
+	@include stars();
+	margin: -50px 0px 0px 320px;
+	}
+	.star14{
+	@include stars();
+	margin: -20px 0px 0px 375px;
+	}
+	.star15{
+	@include stars();
+	margin: -380px 0px 0px 290px;
+	transform: scale(1.8); 
+	}
+}
+
+#snowflakeContainer {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.snowflake {
+    padding-left: 15px;
+    font-family: Cambria, Georgia, serif;
+    font-size: 14px;
+    line-height: 24px;
+    position: fixed;
+    color: #FFFFFF;
+    user-select: none;
+    z-index: 1000;
+}
+.snowflake:hover {
+    cursor: default;
+}
+
+
+
+
+
+
+
+
+
+
+

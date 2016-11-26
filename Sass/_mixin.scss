@@ -1,0 +1,14 @@
+@mixin circles($color, $width, $height, $opacity) {
+	background-color: $color;
+	opacity: $opacity;
+	width: $width;
+    height: $height;
+    border-radius: 50%;
+    position: relative;
+    text-align: center;
+ }
+
+@mixin stars(){
+	position: relative;
+	animation: flash linear 2000ms infinite;
+}

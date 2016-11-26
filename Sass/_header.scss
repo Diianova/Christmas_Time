@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'alex_brushregular';
+  src: url("../fonts/alexbrush-regular-webfont.woff2") format("woff2"), url("../fonts/alexbrush-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+header {
+  color: #ffffff;
+  text-align: center;
+}
+
+header h1 {
+  margin-top: 0.5em;
+  font-size: 4em;
+  display: none;
+  text-shadow: 0 0 15px white;
+}

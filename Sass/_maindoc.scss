@@ -1,0 +1,41 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'alex_brushregular';
+}
+
+
+.container{
+	width:1000px;
+	margin: 0 auto;
+}
+body{
+	background-image: url('../images/bg1.png');
+	background-size: cover;
+	height: 650px;
+	background-repeat: no-repeat;
+}
+
+section{
+	height: 25em;
+	// border: 1px solid red;
+	.container{
+		display: flex;
+		justify-content: space-between;
+	}
+}
+
+.wish{
+	width: 30em;
+	height: 25em;
+	// border: 1px solid red;
+	color: $c_white;
+	p{
+		font-weight: bold;
+		font-size: 40px;
+		// padding-top: 4em;
+		text-shadow: 5px 5px 15px blue;	
+		text-align: center;
+	}
+}
