@@ -34,8 +34,11 @@ section{
 	p{
 		font-weight: bold;
 		font-size: 40px;
-		// padding-top: 4em;
+		padding-top: 1em;
 		text-shadow: 5px 5px 15px blue;	
 		text-align: center;
 	}
+}
+.wish:hover{
+	color: blue;
 }
